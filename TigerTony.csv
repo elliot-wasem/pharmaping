@@ -1,0 +1,13 @@
+MEDICATION_NAME,TAKE,FORM,ROUTE,SIZE,FREQ,DISPENSE_AMT,REFILL,DATE_PRESCRIBED,INDICATION,PHARMACY,DOCTOR,INS_PLAN,PATIENT_FNAME,PT_LNAME,PT_ADDRESS,PT_PHONENUMBER,DOB,GENDER
+LOSARTAN POTASSIUM,1,Tablet,oral,50MG,BID,90,3,3/31/2017,Hypertension,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+ASPIRIN EC,1,Tablet,oral,81MG,PRN,30,3,10/18/2016,Coronary Artery Disease,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+DOXAZOSIN MESYLATE,1,Tablet,oral,2MG,QD,90,2,3/20/2017,Hypertension,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+METAPROLOL TARTRATE,1,Tablet,oral,25MG,BID,60,0,2/18/2017,Myocardial Infarction,Walgreens Drug Store 07912,Bauer,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+LANTUS SOLOSTAR,Inject,Solution,intravenous,100 Unit/ML,bed time,15,0,2/10/2017,Diabetes,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+ELIQUIS,1,Tablet,oral,5MG,daily,30,3,8/25/2016,Pulmonary Vascular Disease,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+PRAVASTATIN SODIUM,1,Tablet,oral,40MG,QD,30,1,10/18/2016,Myocardial Infarction,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+CYCLOBENZAPRINE,1,Capsule,oral,1MG,daily,30,0,1/25/2017,Pain,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+AMOXCILLIN,1,Suspension,oral,400MG/5ML,7 days,70ML,0,10/3/2017,Bronchitis,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+AUGMENTIN,1,Tablet,oral,500-125MG,every 12 hours,20,0,10/3/2017,Sinusitis,Walgreens Drug Store 07912,Bauer,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+NAPROSYN,1,Tablet,oral,500MG,BID,60,1,10/1/2017,Rheumatoid Arthritis,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
+KEFLEX,1,Capsule,oral,250MG,every 6 hours for 7 days,28,0,10/6/2017,Cellulitis,Walgreens Drug Store 07912,Caforio,MED01,Tiger,Tony,"12345 Hippie Lane New Village, CA 90909",8182324554,10/7/1943,M
