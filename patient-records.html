@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>PharmaPing</title>
+</head>
+
+<body class="body_all">
+    <div class="info_head">
+        <div class="info_head">
+        <h1><a href="index.html"><img id="logo" src="logo.png" /></a></h1>
+        </div>
+    </div>
+    <div class="info_body">
+        <div id="nav_index">
+            <a href="index.html" class="hlink">Home</a>
+            <br/>
+            <br/><a href="patient-records.html" class="hlink">Patients</a>
+            <br/>
+            <br/><a href="patient_compliance_form.html" class="hlink">Compliance Form</a>
+        </div>
+        <div id="body_index">
+            <table id="p_info">
+                <tr>
+                    <td class="cell"><img id="patient_image" src="" /></td>
+                    <td><a href="emr-page.html" target="_blank"><img src="emr img.png" width="150px" height="auto" align="center" style="display: block; margin-left: auto; margin-right: auto;" /></a></td>
+                </tr>
+                <tr>
+                    <th class="cell" id="name">Doe, John</th>
+                </tr>
+                <div>
+                    <tr>
+                        <th class="cell">Gender: </th>
+                        <td class="cell" id="gender">[insert gender]</td>
+                    </tr>
+                    <tr>
+                        <th class="cell">DOB: </th>
+                        <td class="cell" id="dob">[insert dob]</td>
+                    </tr>
+                    <tr>
+                        <th class="cell">Address: </th>
+                        <td class="cell" id="address">[insert address]</td>
+                    </tr>
+                    <tr>
+                        <th class="cell">Phone Number: </th>
+                        <td class="cell" id="phone_number">[insert phone number]</td>
+                    </tr>
+                    <tr>
+                        <th class="cell">Pharmacy: </th>
+                        <td class="cell" id="pharmacy">[insert pharmacy name/address]</td>
+                    </tr>
+                    <tr>
+                        <th class="cell">Doctor: </th>
+                        <td class="cell" id="doctor">[insert doctor info]</td>
+                    </tr>
+                    <tr>
+                        <th class="cell">Insurance Plan: </th>
+                        <td class="cell" id="insurance">[insert insurance plan]</td>
+                    </tr>
+                </div>
+            </table>
+            <!--Prescribed Medication-->
+            <table id="p_med_record">
+                <tr>
+                    <th class="cell">Medication Name</th>
+                    <th class="cell">Take</th>
+                    <th class="cell">Form</th>
+                    <th class="cell">Route</th>
+                    <th class="cell">Size</th>
+                    <th class="cell">Date Prescribed</th>
+                    <th class="cell">Refills</th>
+                    <th class="cell">Dispense Amount</th>
+                    <th class="cell">Frequency</th>
+                    <th class="cell">Indication</th>
+                </tr>
+                <!-- <tr>
+                    <td class="cell">Dramamine</td>
+                    <td class="cell">2 BID</td>
+                    <td class="cell">Tablet</td>
+                    <td class="cell">Oral</td>
+                    <td class="cell">50 mg</td>
+                    <td class="cell">10-13-2015</td>
+                    <td class="cell">7</td>
+                    <td class="cell">90</td>
+                </tr> -->
+            </table>
+            <!--Dosage Compliance-->
+            <table id="p_med_record">
+                <tr>
+                    <th class="cell">Dosage Compliance</th>
+                </tr>
+                <tr>
+                    <th class="cell">Drug Name</th>
+                    <th class="cell">Morning</th>
+                    <th class="cell">Afternoon</th>
+                    <th class="cell">Evening</th>
+                    <th class="cell">Special Instructions</th>
+                </tr>
+                <tr>
+                    <td class="cell">Losartan Potassium</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Take twice daily</td>
+                </tr>
+                <tr>
+                    <td class="cell">Aspirin EC</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Do not take with alcohol</td>
+                </tr>
+                <tr>
+                    <td class="cell">Metaprolol Tartrate</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Take before meal</td>
+                </tr>
+                    <td class="cell">Lantus Solostar</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Take at bedtime</td>
+                </tr>
+                <tr>
+                    <td class="cell">Eliquis</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Take as needed</td>
+                </tr>
+                <tr>
+                    <td class="cell">Pravastatin</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Take once daily</td>
+                </tr>
+                <tr>
+                    <td class="cell">Cyclobenzaprine</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Take as needed</td>
+                </tr>
+                <tr>
+                    <td class="cell">Amoxicillin</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell"><span style="color: red;"><u>Not taken</u></span></td>
+                    <td class="cell">Take every 12 hours for 7 days</td>
+                </tr>
+                <tr>
+                    <td class="cell">Augmentin</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Take every 12 hours for 7 days</td>
+                </tr>
+                <tr>
+                    <td class="cell">Naprosyn</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Take twice daily</td>
+                </tr>
+                <tr>
+                    <td class="cell">Keflex</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell">Take every 6 hours for 7 days</td>
+                </tr>
+                <tr>
+                    <td class="cell">Metformin</td>
+                    <td class="cell">Taken</td>
+                    <td class="cell"><span style="color: red;"><u>Not taken</u></span></td>
+                    <td class="cell">N/A</td>
+                    <td class="cell">Take twice daily</td>
+                </tr>
+                <tr>
+                    <td class="cell">Combigan</td>
+                    <td class="cell"><span style="color: red;"><u>Not taken</u></span></td>
+                    <td class="cell">N/A</td>
+                    <td class="cell"><span style="color: red;"><u>Not taken</u></span></td>
+                    <td class="cell">Take twice daily</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="insert-medicine-record.js"></script>
+</body>
+
+</html>

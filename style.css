@@ -1,0 +1,145 @@
+a.hlink {
+    text-align: center;
+    vertical-align: middle padding: 10px 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a.hlink:link {
+    color: blue;
+}
+
+a.hlink:visited {
+    color: black;
+}
+
+a.hlink:hover {
+    color: cyan;
+}
+
+a.hlink:active {
+    color: red;
+}
+img.lnk {
+	 width: 80px;
+	 height: auto;
+	 vertical-align: top;
+	 margin: 20px;
+}
+#submit_button {
+	margin: 20px;
+	max-height: 40px;
+	content: url('unpressed.png');
+}
+#submit_button:hover {
+	margin: 20px;
+	max-height: 40px;
+	content: url('pressed.png');
+}
+img.lnk:hover {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.body_all {
+    background-color: #e0e0e0;
+}
+
+.info_head {
+	border-radius: 25px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.info_body {
+	border-radius: 100px;
+    max-width: 1300px;
+    margin: auto;
+}
+#patient_image {
+	max-height: 300px;
+	max-width: auto;
+}
+#nav_index {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+    float: left;
+    padding: 2px;
+    border-right: 2px;
+    border-color: black;
+    max-width: 200px;
+    background-color: #33a2aa;
+    border-right: 2px solid;
+}
+
+#body_index {
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    width: auto;
+    padding: 2px;
+    background-color: #99d1d5;
+}
+
+#p_info {
+    border: 1px solid;
+    float: left;
+	margin: 15px;
+	background-color: white;
+}
+
+#p_med_record {
+	border: 1px solid;
+	float: left;
+	margin: 15px;
+	background-color: white;
+}
+
+#logo {
+	vertical-align: center;
+	height: 150px;
+	width: auto;
+}
+
+.cell {
+    text-align: left;
+    border: 1px solid;
+}
+#id {
+	color: red;
+}
+#welcome_title {
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px gray;
+	text-align: center;
+    background-color: #99d1d5;
+	margin: 30px;
+}
+
+#mock-img {
+	 max-width: 100%;
+	 max-height: auto;
+}
+
+#patient_checklist {
+	font-size: x-large;
+	text-align: center;
+	margin: auto;
+}
+#patient_form {
+	max-width: 800px;
+	margin: auto;
+}
+#body_index2 {
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    width: auto;
+    padding: 2px;
+    background-color: #68c5cf;
+	height: 2000px;
+}
+#compliance_img {
+	width: 60px;
+	height: auto;
+}
